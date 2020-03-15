@@ -1,0 +1,10 @@
+Train
+1-gram BLEU:	0.783388
+2-gram BLEU:	0.702043
+3-gram BLEU:	0.625557
+4-gram BLEU:	0.505924
+Test
+1-gram BLEU:	0.586668
+2-gram BLEU:	0.464114
+3-gram BLEU:	0.359104
+4-gram BLEU:	0.251205
