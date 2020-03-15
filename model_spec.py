@@ -15,6 +15,9 @@ def build_model(
         output_dim=embed_dim,
         mask_zero=True,
         input_length=input_max_len))
+    
+    # model.add(K.layers.GaussianNoise(1e-3))
+    
     model.add(K.layers.LSTM(units=lstm1_units))
     model.add(K.layers.RepeatVector(n=output_max_len))
     model.add(K.layers.LSTM(units=lstm2_units, return_sequences=True))
